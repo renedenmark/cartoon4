@@ -8,20 +8,56 @@
         For details, see http://go.microsoft.com/fwlink/?LinkID=617521
     -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-    <title>cartoon2</title>
+    <title>TestCordovaApp2</title>
 
-    <!-- cartoon2 references -->
+    <!-- TestCordovaApp2 references -->
     <link href="css/index.css" rel="stylesheet" />
 </head>
 <body>
     <div><img src="images/tegning00.jpg"></div>
-
-    <!-- Cordova reference, this is added to your app when it's built. -->
-    <script src="cordova.js"></script>
-    <script src="scripts/platformOverrides.js"></script>
-
-    <script src="scripts/index.js"></script>
-
+    <div class="opgave" id="opgave1">
+        <ul>
+            <li class="spg">Hvem så den sovende krokodille?</li>
+            <li class="svar" id="A">A. En afro-dansker</li>
+            <li class="svar" id="B">B. En sort dreng</li>
+            <li class="svar" id="C">C. En negerdreng</li>
+        </ul>
+    </div>
+    <div class="opgave" id="opgave2">
+        <ul>
+            <li class="spg">Hvordan var krokodillens søvn?</li>
+            <li class="svar" id="A">A. Mild og sød</li>
+            <li class="svar" id="B">B. Dejlig</li>
+            <li class="svar" id="C">C. Tryg og god</li>
+        </ul>
+    </div>
+    <div class="opgave" id="opgave3">
+        <ul>
+            <li class="spg">Hvad ramte krokodillen?</li>
+            <li class="svar" id="A">A. En sten</li>
+            <li class="svar" id="B">B. En negerbæ</li>
+            <li class="svar" id="C">C. En kokosnød</li>
+        </ul>
+    </div>
+    <div class="opgave" id="opgave4">
+        <ul>
+            <li class="spg">Hvad sagde krokodillen?</li>
+            <li class="svar" id="A">A. Man skal være god mod dyrene</li>
+            <li class="svar" id="B">B. Av, av! - av, av! min ryg!</li>
+            <li class="svar" id="C">C. Dumme dreng!</li>
+        </ul>
+    </div>
+    <div class="opgave" id="opgave5">
+        <ul>
+            <li class="spg">Hvad var moralen?</li>
+            <li class="svar" id="A">A. Negerdreng smager godt</li>
+            <li class="svar" id="B">B. Krokodiller er dumme</li>
+            <li class="svar" id="C">C. Den ler bedst, som ler til sidst</li>
+        </ul>
+    </div>
+    <div class="indsend">
+        <button>INDSEND SVAR</button>
+    </div>
     <script src="scripts/jquery-2.2.0.min.js"></script>
     <script src="scripts/jquery.mobile-1.4.5.min.js"></script>
     <script src="scripts/minjs.js"></script>

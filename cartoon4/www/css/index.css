@@ -3,9 +3,32 @@
 img
 {
   display: inline;
-  width: 90%;
   height: 100%;
-  margin: 0px;
+  width: 100%;
+  margin: 20px;
   border: 0px;
 }
-
+div.opgave
+{
+    display: none;
+}
+div.indsend
+{
+    display: none;
+}
+div.opgave
+{
+    border: none;
+}
+.spg
+{
+    font-size: 22pt;
+    font-weight: 900;
+    list-style-type: none;
+}
+.svar
+{
+    font-size: 15pt;
+    font-weight: 100;
+    margin-left: 16px;
+}
